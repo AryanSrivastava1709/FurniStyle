@@ -6,6 +6,7 @@
     <title>@yield('title', 'Furniture Store')</title>
     @vite('resources/css/app.css') <!-- For Tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     @livewireStyles <!-- For Livewire styles -->
 </head>
 <body class="bg-gray-100 font-poppins flex flex-col min-h-screen">
