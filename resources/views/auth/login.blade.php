@@ -63,7 +63,7 @@
                 successMessage: '',
                 errorMessages: [],
                 submitForm() {
-                    fetch('{{ route('login') }}', {
+                    fetch('https://furnistyle-production.up.railway.app/login', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

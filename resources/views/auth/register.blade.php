@@ -73,7 +73,7 @@
                 successMessage: '',
                 errorMessages: [],
                 submitForm() {
-                    fetch('{{ route('register') }}', {
+                    fetch('https://furnistyle-production.up.railway.app/register', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
